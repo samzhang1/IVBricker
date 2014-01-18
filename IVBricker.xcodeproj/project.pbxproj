@@ -21,6 +21,7 @@
 		D134E4D8188356DC004C97D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D134E4BA188356DC004C97D4 /* UIKit.framework */; };
 		D134E4E0188356DC004C97D4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D134E4DE188356DC004C97D4 /* InfoPlist.strings */; };
 		D134E4E2188356DC004C97D4 /* IVBrickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D134E4E1188356DC004C97D4 /* IVBrickerTests.m */; };
+		D134E4EC188A2C65004C97D4 /* ball.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D134E4EB188A2C65004C97D4 /* ball.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		D134E4DD188356DC004C97D4 /* IVBrickerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IVBrickerTests-Info.plist"; sourceTree = "<group>"; };
 		D134E4DF188356DC004C97D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D134E4E1188356DC004C97D4 /* IVBrickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IVBrickerTests.m; sourceTree = "<group>"; };
+		D134E4EB188A2C65004C97D4 /* ball.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ball.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 		D134E4AA188356DC004C97D4 = {
 			isa = PBXGroup;
 			children = (
+				D134E4EB188A2C65004C97D4 /* ball.jpg */,
 				D134E4BC188356DC004C97D4 /* IVBricker */,
 				D134E4DB188356DC004C97D4 /* IVBrickerTests */,
 				D134E4B5188356DC004C97D4 /* Frameworks */,
@@ -230,6 +233,7 @@
 			files = (
 				D134E4CF188356DC004C97D4 /* Images.xcassets in Resources */,
 				D134E4C1188356DC004C97D4 /* InfoPlist.strings in Resources */,
+				D134E4EC188A2C65004C97D4 /* ball.jpg in Resources */,
 				D134E4CA188356DC004C97D4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -460,6 +464,7 @@
 				D134E4E7188356DC004C97D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D134E4E8188356DC004C97D4 /* Build configuration list for PBXNativeTarget "IVBrickerTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +473,7 @@
 				D134E4EA188356DC004C97D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

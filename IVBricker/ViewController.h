@@ -9,5 +9,23 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    UILabel *scoreLabel;
+    int score;
+    UIImageView *ball;
+    CGPoint ballmovement;
+    UIImageView *bat;
 
+    
+    }
+@property (retain, nonatomic) IBOutlet UILabel *scoreLable;
+
+@property (retain, nonatomic) IBOutlet UIImageView *ball;
+@property (retain, nonatomic) IBOutlet UIImageView *jeta;
+@property (retain, nonatomic) IBOutlet UIImageView *bat;
+
+//@property (retain, nonatomic) IBOutlet UIImageView *bat;
+
+- (void) initializeTimer;
+- (void) animateBall : (NSTimer *)theTimer;
 @end
